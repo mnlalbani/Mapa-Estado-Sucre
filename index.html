@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection" />
+    <title>Estado Sucre</title>
+</head>
+<body class="grey lighten-5">
+    <nav class="blue lighten-1">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Mapa Interactivo del Estado Sucre</a>
+        </div>
+    </nav>
+
+    <div class="container">
+    <div id="map" class="estado_sucre "></div>
+    <div class="leyenda ">
+        <table class="tablaLeyenda centered highlight">
+            <tr>
+                <th colspan="6">
+                    <h5>Leyenda de Municipios</h5>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="andres-eloy leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Andres_Eloy_Blanco">Andrés Eloy Blanco</td>
+                <td>
+                    <div class="andres-mata leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Andres_Mata">Andrés Mata</td>
+                <td>
+                    <div class="arismendi leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Arismendi">Arismendi</td>
+                <td>
+                    <div class="benitez leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Benitez">Benitez</td>
+                <td>
+                    <div class="bermudez leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Bermudez">Bermudez</td>
+                <td>
+                    <div class="bolivar leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Bolivar">Bolívar</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cajigal leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Cajigal">Cajigal</td>
+                <td>
+                    <div class="cruz leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Cruz">Cruz Salmerón Acosta</td>
+                <td>
+                    <div class="libertador leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Libertador">Libertador</td>
+                <td>
+                    <div class="marino leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Marino">Mariño</td>
+                <td>
+                    <div class="mejia leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Mejia">Mejía</td>
+                <td>
+                    <div class="montes leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Montes">Montes</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="ribero leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Ribero">Ribero</td>
+                <td>
+                    <div class="sucre leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Sucre">Sucre</td>
+                <td>
+                    <div class="valdez leyenda-box"></div>
+                </td>
+                <td class="modal-trigger" href="#Valdez">Valdez</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    
+    <div id="Andres_Eloy_Blanco" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/Andreseloyblanco.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/casanay_01b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/casanay_02b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/casnay2.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/kokoland.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/moises.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-eloy/moises2.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Andrés Eloy Blanco</h5>
+                    <blockquote cite="">
+                        <p>Andrés Eloy Blanco​ es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado en el centro de ese Estado y se
+                        extiende desde la zona costera en el Mar Caribe hasta la región montañosa de Sucre. Es una de las zonas con mayor producción agrícola del Estado
+                        Sucre, se destaca por la producción de café, caña de azúcar, maíz, ocumo y yuca.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Casanay</b> está ubicado al Noreste del estado Sucre, en Venezuela, desde el punto de vista político administrativo es la capital del
+                            Municipio Autónomo Andres Eloy Blanco. Sus indicadores geográficos son 10º-30'-18" de latitud norte y 63º-24'-46" longitud
+                            oeste. Se encuentra a una altura promedio de 32 metros sobre el nivel del mar y su temperatura promedio anual es de 27°C
+                            y la máxima de 40°C en las épocas de mayor calor. Casanay se encuentra aproximadamente a una distancia de 100 km de Cumaná,
+                            85 km de Caripito, 40 km de Carúpano y 18 km de Cariaco. Las principales vías de acceso de Casanay son las de Cumaná-Cariaco-Casanay,
+                            Maturín-Carúpano y Casanay-Guarapiche-Río Casanay.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 721 km²
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 27.401 hab
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 2 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Mariño</li>
+                            <li class="collection-item">Rómulo Gallegos</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Aguas de Moisés</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Balneario Kokoland</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Entrada Casanay</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Andres_Mata" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/cueva.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/mirador.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/PUSU-SanJoseDeAreocuar-CalleBERMUDEZ.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/PUSU-SanJoseDeAreocuar-CasaTipica2.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/PUSU-SanJoseDeAreocuar-CasaTipica4.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/andres-mata/PUSU-SanJoseDeAreocuar-IglesiaPlazaBermudez (1).jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Andrés Mata</h5>
+                    <blockquote cite="">
+                        <p>Andrés Mata3 es uno de los 15 municipios que conforman el estado Sucre. La capital es San José de Areocuar. Cabe destacar que San José de Areocuar,
+                        es una de las ciudades más antiguas del estado, fundada por el padre capuchino Agustín de Frías el 12 de abril de 1677. Los
+                        primeros habitantes fueron los indígenas pariagotos. El nombre del municipio, se debe en honor al poeta, escritor y periodista
+                        carupanero Andrés Mata, fundador del diario El Universal.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>San José de Aerocuar</b> es una localidad situada en el estado Sucre, Venezuela. Es la capital del municipio Andrés Mata</p>
+                            <p>Fue fundado por un capuchino aragonés, fray Agustín de Frías de Albarracín, el 28 de Octubre de 1677. Fray Lorenzo de Magallón,
+                            le había otorgado permiso para fundar misiones.</p>
+                            <p>Fue una de las primeras misiones en establecerse en la región. La actual iglesia consta de 3 naves y fue erigida en 1780.
+                            En 1712 se erige como parroquia.</p>
+                            <p>Basa su economía en actividades agrícolas en maíz, caña de azúcar, café, cacao, tubérculos y frutas varias.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 454 km²
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 24.481 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 2 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">San José de Aerocuar</li>
+                            <li class="collection-item">Tavera Acosta</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Mirador Natural de Las Torres de Campeare</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">La Loma del Zulia</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Arismendi" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/canoajies_770x550.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/monumento_rey.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/playapuipui_770x550.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/plaza_sucre.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/riocaribe.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/riocaribe_1200x800a.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/riocaribe_1200x800c.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/Río-Caribe3.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/arismendi/sabanaventurini_1200x800a.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Arismendi</h5>
+                    <blockquote cite="">
+                        <p>Arismendi es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al noreste de ese Estado, es el municipio
+                        más septentrional y oriental de Sucre.</p>
+                        <p>El municipio ocupa la parte norte de la Península de Paria, es una región montañosa que se eleva hasta los 1.449 msnm en
+                        el Cerro El Humo, la temperatura promedio del área es de 23 °C aunque puede llegar a descender hasta los 19 °C, las precipitaciones
+                        promedio anuales rondan los 1.000 mm y puede llegar hasta los 4.900 mm en las zonas altas. En 1978 parte del municipio fue
+                        declarado Parque Nacional Península de Paria. A sólo 11 km de su costa oriental se encuentra Trinidad y Tobago.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Río Caribe</b> es una ciudad venezolana costera situada al oriente de Venezuela, más específicamente en la margen norte de la península
+                            de Paria, en territorio del Estado Sucre. Es la capital del Municipio Arismendi y de la parroquia civil homónima. Para 2013
+                            contaba con una población de 32.019 habitantes según el INE.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 769 km²
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 56.972 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 5 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">El Morro</li>
+                            <li class="collection-item">Puerto Santo</li>
+                            <li class="collection-item">Río Caribe</li>
+                            <li class="collection-item">Sucre</li>
+                            <li class="collection-item">San Juan</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection" >
+                            <li>
+                                <div class="collapsible-header">Parque nacional Península de Paria</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Playa Pui Pui</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Sabana Venturini</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Benitez" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/2010_0703Guanoco20100684.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/balneariosabacual_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/plaza-bolivar.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/pnturuepano0001b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/rincon.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/TURUEPANO.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/benitez/turuepano-03.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Benítez</h5>
+                    <blockquote cite="">
+                        <p>Benítez​ es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al sureste de ese Estado, es el municipio
+                        más extenso de Sucre, tiene una superficie de 2.733 km² y una población de 31.111 habitantes (censo 2011). Su capital es
+                        El Pilar.</p>
+                        <p>Las principales actividades económicas son la producción de cacao que data desde la época de la colonia y la pesca fluvial.</p>
+                        <p>Benítez es el municipio más extenso del estado Sucre. Su principal característica es su naturaleza tropical de selvas, ríos,
+                        caños y azufrarles. Ofrece numerosos atractivos para turismo de aventura, con sus inmensos humedales, el lago de asfalto
+                        de Guanoco, el gran río San Juan, los bosques de mangle, la cría de búfalos, las selvas vírgenes, y sitios pintorescos como
+                        la quebrada Antonio Díaz, con su lecho de caliza en el cual se encuentran fósiles de ruditas y gasterópodos de mucho interés
+                        para la geología. También pueden observarse restos del viejo esplendor colonial de sus haciendas de cacao. En el caño Guanaco
+                        pueden capturarse ejemplares de colección de camarones de río, investigados por especialistas en la materia. De las muy antiguas
+                        tribus de los Guaraunos quedan representantes suyos al sur de Guariquen, y muestras de su labor se exhibe en la Casa de la
+                        Cultura del Pilar.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>El Pilar</b> es la capital del Municipio Benítez, fue fundada el 1º de mayo del año 1662, con el nombre de “Nuestra Señora de El Pilar”
+                            por el padre fray Francisco de Carabantes, cerca de la zona llamada Los Llanos. Fue destruido por los asediados indígenas
+                            Caribe. Luego fue reedificado el año 1675, en el Valle de Chupampar, muy lejos del primer lugar. Después fue movido al Valle
+                            de Chicauntar donde está actualmente. Estas últimas fundaciones fueron realizadas por el padre Felipe de Hijar. Fue convertido
+                            en pueblo de doctrina en el año 1712 y luego en parroquia. Sus libros parroquiales se conservan en Carúpano en los archivos
+                            de Santa Rosa, hay libros que datan del año 1734.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 2.733 km²
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 31.111 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 6 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">El Pilar</li>
+                            <li class="collection-item">El Rincon</li>
+                            <li class="collection-item">Francisco Váquez</li>
+                            <li class="collection-item">Guaraunos</li>
+                            <li class="collection-item">Unión</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection" >
+                            <li>
+                                <div class="collapsible-header">Balneario Sabacual</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Parque Nacional Turuepano</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Laguna de Asfalto de Guanoco</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Bermudez" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/carupano-logo.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/carupano_700x490.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/carupano_700x547.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/carupano-2.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/4426502.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/carupano-luisvelasquezpepelo.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/fb_img_1422811064507.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/playa_medina1.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bermudez/playa_medina2.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Bermúdez</h5>
+                    <blockquote cite="">
+                        <p>Bermúdez es uno de los 15 municipios que conforman al estado nororiental venezolano de Sucre, contiene
+                            5 de las 57 parroquias de este estado venezolano. La capital es la ciudad de Carúpano.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Carúpano</b> es una ciudad del Estado Sucre, Venezuela, cuya población es de aproximadamente 200.000
+                            habitantes, ubicada geográficamente en la costa al Noreste de la región, a 120 kilómetros de Cumaná,
+                            la ciudad capital del Estado.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 203 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 169.725 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 5 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Bolívar</li>
+                            <li class="collection-item">Macarapana</li>
+                            <li class="collection-item">Santa Catalina</li>
+                            <li class="collection-item">Santa Rosa</li>
+                            <li class="collection-item">Santa Teresa</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Playa Medina</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Cascada de Guariquen</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Mercado De Carúpano</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Bolivar" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bolivar/33_full.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bolivar/download.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bolivar/playamaigualida_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bolivar/playamaigualida_1200x800b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/bolivar/quetepe.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Bolívar</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los quince municipios que conforman al estado Sucre. Su capital es Marigüitar, fundado por el padre torre de los
+                        negros bajo el nombre de Inmaculada Concepción de Marigüitar, este municipio se ubica al oeste del estado Sucre, sobre el
+                        golfo de Cariaco. Posee 211 km² una población según el censo de 2006 de 21.886 habitantes, y sus límites son por el este
+                        con el Municipio Mejía, por el sur con el Municipio Montes y por el oeste con el Municipio Sucre.</p>
+                        <p>Se fundó en el año de 1713 y en 1783 paso a ser un pueblo de misioneros. Las actividades económicas de este municipio la
+                        constituye, principalmente el sector pesquero y agrícola, la cual mantiene a un importante sector de la población.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Marigüitar</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Marigüitar</b> es una población del estado Sucre en Venezuela.Aprox.con unos 30.000 habitantes, en 1713 el padre Torreslosnegros funda una
+                            misión en el valle de Marigüitar, llamada Inmaculada Concepción de Marigüitar. Esta ciudad es capital del municipio Bolívar,
+                            otros de sus sectores además del casco histórico son: Altamira, Buenos Aires, Bella Vista, Urb Los Cocalitos, San Francisco,
+                            Urb Nueva Marigüitar, Barrio Maturincito, Barrio Miramar, El Calvario, Pinto Salinas, Urb Las Palomas, Urb Las Casitas, Urb
+                            El Campamento. Marigüitar tiene una gran planta de procesamiento de pescado, propiedad de Mavesa, la cual es una subsidiaria
+                            de Empresas Polar, la compañía más grande de comida y bebidas de Venezuela. Ésta planta sirve como principal fuente de empleo
+                            para los residentes de la zona. Además una pequeña flota de buses, camiones pick-up y carros particulares proveen de transporte
+                            al pueblo con las comunidades aledañas y a la capital del estado, Cumaná, que esta a unos 25 km.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 211 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 21.886 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>No posee.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection" >
+                            <li>
+                                <div class="collapsible-header">Playa Maigualida</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Playa Quetepe</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Cajigal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/61076940.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/61076967.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/muelle.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/municipiocajigal_700X547_04.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/municipiocajigal_700X547_05.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/municipiocajigal_700X547_06.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/municipiocajigal_700X547_07.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cajigal/municipiocajigal_700X547b.jpg">
+                        </a>         
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Cajigal</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los quince municipios que conforman al estado nororiental venezolano de Sucre. El municipio se ubica en la parte
+                        sur de la Península de Paria, tiene 3 parroquias llamadas: Libertad, con capital Río Seco, la segunda parroquia llamada El
+                        Paujil, con capital la población homónima, y finalmente la parroquia capital, con capital la misma que el municipio, Yaguaraparo.
+                        Tiene una población aproximada de 18.942 habitantes, con una densidad de 51,9 habitantes por Km2 (censo 2001), tiene 365
+                        Km2 de superficie y su altura máxima es de 800 msnm, en el cerro Pacholí, cerca de Cachipal. Sus límites son: por el norte,
+                        en su totalidad delimita con el Municipio Arismendi, por el sureste con el Golfo de Paria y el suroeste con el Municipio
+                        Libertador. Por el este limita con el Municipio Mariño, por el oeste limita un poco con el Municipio Arismendi, y el resto
+                        con el Municipio Libertador. En su costa sur tiene al Golfo de Paria. Estas costas no son secas ni arenosas, sino que predominan
+                        los manglares en terreno fangoso; igualmente, el Golfo de Paria, en sus inmediaciones, tiene poca profundidad, por lo que
+                        solamente se puede navegar en pequeñas embarcaciones.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Yaguaraparo</b> es la ciudad capital del municipio de Cajigal, Península de Paria, en el estado de Sucre, en Venezuela.</p>
+                            <p>Yaguaraparo fue fundado el 12 de noviembre de 1760 como pueblo de Misión, por el fraile capuchino Silvestre de Zaragoza,
+                            entre indios Guaraúnos que habitaban por aquella época la región. Una serie de fatales acontecimientos impidieron que el
+                            pueblo lograse evolucionar en sus primeros años y terminaron provocando el fracaso de la misión y el despoblamiento del lugar
+                            en apenas nueve años.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 365 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total:  23.690 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 3 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">El Pajuil</li>
+                            <li class="collection-item">Libertad</li>
+                            <li class="collection-item">Yaguaraparo</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Muelle de Yaguaraparo</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Poza Los Tres Chorros</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Plantaciones de Cacao</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Cruz" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/castilloaraya_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/castilloaraya_1200x800c.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/playacastillo_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/playalosmuertos_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/Recorrido-por-la-Peninsula-de-Araya-Foto-de-JJAguilarte-6.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/cruz/salinas_1200x800g.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Cruz Salmerón Acosta</h5>
+                    <blockquote cite="">
+                        <p>​ Es uno de los 15 municipios que conforman al estado venezolano de Sucre. Este municipio se ubica en el noroeste del estado,
+                        teniendo como capital la ciudad turística de Araya, en la península homónima. El municipio tiene 3 de las 54 parroquias existentes
+                        en los diversos municipios de este estado, y son: Cruz Salmerón Acosta, Chacopata y Manicuare. El municipio tiene un área
+                        de 612 km² aproximadamente, y una población de 42.339 habitantes con una densidad de 49 habitantes por km², según el censo
+                        de 2011. Este municipio limita únicamente por el este con el municipio de Ribero.</p>
+                        <p>El nombre del municipio es en homenaje al poeta Cruz Salmerón Acosta.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Araya</b> es una ciudad venezolana, ubicada en sector más occidental la península de Araya, en el estado nororiental de Sucre1​ Es
+                            capital del Municipio Cruz Salmerón Acosta.</p>
+                            <p>Araya es árida y seca, es además mundialmente famosa por sus salinas y posee un gran potencial turístico gracias a sus hermosas
+                            playas y a la antigua fortaleza española ubicada a orillas de sus playa.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 612 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 42.339 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 3 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Araya</li>
+                            <li class="collection-item">Chacopata</li>
+                            <li class="collection-item">Manicuare</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Real Fortaleza Santiago de Arroyo de Araya</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Salinas de Araya</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Playa de Castillo</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Libertador" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/libertador/4640908644_339f81ac8d.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/libertador/d9b8e410ddeab7e314c21f94a3c35f26.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/libertador/libertador_700x547.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/libertador/plaza-bolivar-de-tunapuy-450x338.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Libertador</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al este de ese Estado en la Península de Paria, tiene
+                        237 km² y una población (censo 2011) de 9.586 habitantes. Su capital es Tunapuy.</p>
+                        <p>El territorio se caracteriza por ser en la sección norte un área montañosa, mientras que el resto del municipio es una planicie
+                        cenagosa dominada por la Sabana Venturini, el caño Ajíes es el principal curso de agua. La zona sur del municipio se encuentra
+                        protegida por el Parque nacional Turuépano.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Tunapuy</b> es una población venezolana capital del Municipio Libertador. Se halla a orillas del Río Tunapuy a 110 metros de altura sobre
+                            el nivel del mar.</p>
+                            <p> Se halla a orillas del río Tunapuy a 110 mts de altura sobre el nivel del mar, fue fundado por el Padre Fray Manuel de la
+                            Mata en el alto de Curiepe de la Cruz un 24 de junio de 1 754. Era el día de San Juan Bautista patrono principal de los misioneros.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 237 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 9.586 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 2 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Campo Elías</li>
+                            <li class="collection-item">Tunpaui</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Parque Nacional Turuepano</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Campamento Rio de agua</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Campamento Vuelta Larga</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Marino" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/1200px-Junio07_oriente_112.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/5662972.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/14832093.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/irapa-en-fotos-3-728.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/irapa-en-fotos-5-728.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/marino/municipiomarino_03.jpg">
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Mariño</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al este de ese Estado en la Península de Paria, tiene
+                        una superficie de 469 km² y una población (censo 2011) de 22.338 habitantes. Su capital es Irapa.</p>
+                        <p>La principal actividad económica del municipio es la pesca, aunque también hay plantaciones significativas de cacao, maíz
+                        y café este último la zona montañosa.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Irapa</b> es una población venezolana capital del Municipio Mariño, recibe el nombre de “Los Jardines” por sus exuberantes bellezas
+                            naturales que extasiaron sus primeros visitantes desde 1.498. Y se fundó como misión en 1736 con el nombre de Patrocinio
+                            de San José de Irapa, cuenta con una población aproximada de 9.500 habitantes.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 469 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 22.338 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 5 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Campo Claro</li>
+                            <li class="collection-item">Irapa</li>
+                            <li class="collection-item">Marabal</li>
+                            <li class="collection-item">San Antonio De Irapa</li>
+                            <li class="collection-item">Soro</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Playa Soro</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Valle de Irapa</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Paseo la Marina</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Mejia" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/3649553.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/1370250110_3029db39c3.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/mejia_700x547b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/mejia_700x547g.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/san-antonio22.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/mejia/san-antonio-del-golfo335287.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Mejía</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado en la zona suroriental del Golfo de Cariaco, al oeste
+                        de ese Estado, tiene una superficie de 298 km² y una población (censo 2011) de 14.300 habitantes. Su capital es San Antonio
+                        del Golfo. Fue fundado por capuchinos aragoneses como misión de San Antonio de Padua, en el sitio donde hoy se ubica el caserío
+                        "la pena", en el valle de Guaypanacuar, a tres leguas de San Felipe de Austria(Cariaco).</p>
+
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>San Antonio del Golfo</b> es una población venezolana, capital del municipio de Mejía, en Sucre. Fue fundada en 1691 con el nombre de San Antonio de
+                            Padua de Guaipanacuar, el nombre actual viene de estar cerca del golfo de Cariaco.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 298 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 14.300 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 1 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Mejía</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Poblado Belén</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Balneario Cahamaure</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">San Antonio del Golfo</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Montes" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/montes/110531885.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/montes/110534051.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/montes/losdosrios_1200x800.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/montes/maxresdefault.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/montes/sanlorenzo_1200x800.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Montes</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al suroeste de ese Estado, tiene una superficie de
+                        1.080 km² y una población (censo 2011) de 53.889 habitantes. Su capital es Cumanacoa. Entre los principales centros poblados
+                        se encuentran Arenas, Aricagua, Cocollar, Las Piedras, San Fernando y San Lorenzo.</p>
+
+                        <p>La principal actividad económica es la agricultura, con especial énfasis en la producción de caña de azúcar, café y el cultivo
+                        de hortalizas.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Cumanacoa</b></p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 1.080 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 53.889 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 6 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Cumanacoa</li>
+                            <li class="collection-item">Arenas</li>
+                            <li class="collection-item">Aricagua</li>
+                            <li class="collection-item">Cocollar</li>
+                            <li class="collection-item">San Fernando</li>
+                            <li class="collection-item">San Lorenzo</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Iglesia San Lorenzo</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Balneario Dos Ríos</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Museo Cruz Alejandro Quinal</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Ribero" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/ribero/6dfab15f256dc0a63e85cd6f1d5d588e.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/ribero/d28edd62772e59b5c1a3b3120dc01225.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/ribero/DSC02097.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/ribero/Iglesia_reconstruida_de_Cariaco,_estado_sucre.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/ribero/lasaguasdemoises_1200x800.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Ribero</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del Estado Sucre, Venezuela. Está ubicado al centro-oeste de ese Estado, tiene una superficie
+                        de 1.480 km² y una población (censo 2011) de 58.192 habitantes. Su capital es Cariaco, ciudad fundada por Joan de Orpí (o
+                        Juan de Urpín) en el siglo XVII. Entre los principales centros poblados se encuentra Cacahual, Campearito, Campoma, Catuaro,
+                        Chamariapa, Chiguana, El Muelle, Guacarapo, Santa Cruz, Santa María, Saucedo y Pantoño.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Cariaco</b> es una Ciudad venezolana, capital del municipio Ribero del Estado Sucre.1​ Se llama Cariaco también a la parroquia donde se
+                            encuentra la población. Ésta localidad, está rodeada por diversas comunidades, entre ellas: Carrizal de la Cruz, Aguas Calientes,
+                            El Cordón de Cariaco; el cual se encuentra en el curso del río Carinicuao, Cerezal, Terranova y Villa Frontado o Muelle de
+                            Cariaco, al igual que las zonas sub-urbanas, las cuales a su vez forman parte de la ciudad como los son: Las Manoas, Los
+                            Silos y El Porvenir.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 1.480 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 58.192 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 5 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Cariaco</li>
+                            <li class="collection-item">Catuaro</li>
+                            <li class="collection-item">Rendón</li>
+                            <li class="collection-item">Santa Cruz</li>
+                            <li class="collection-item">Santa María</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Playa Saucedo</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Artesania de Cerezal</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Balneario Kokoland</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Sucre" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/catedral_de_cumana_gde.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/1582d9909c3a4001b15252eba2e9126a.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/1886899.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/Iglesia_de_Santa_Inés,_Cumaná,_Venezuela_13.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/parquenacionalmochima2.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/puinare.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/sucre/slider1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Sucre</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios del estado Sucre. Su capital es Cumaná, la cual a su vez, también es la capital del estado. Posee
+                        una superficie de 1570 km².</p>
+                        <p>
+                             El municipio delimita por el este y sureste con el Municipio Montes, por el noreste con el Municipio Bolívar, por el sur
+                            con los municipios Pedro María Freites del estado Anzoategui y Libertad, por el suroeste con los municipios Guanta, Juan
+                            Antonio Sotillo y Simón Bolívar todos estos del estado Anzoategui, finalmente, por el oeste hasta el norte, el municipio
+                            delimita con el Mar Caribe.
+                        </p>
+                        <p>El municipio tiene como economía principal la pesca y el turismo, por sus playas atractivas e innumerosos peces en la zona,
+                        además de que cuentan con el Parque nacional Mochima, uno de los parques más bellos de Venezuela.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Cumaná</b> es una importante ciudad del oriente venezolano, capital y sede de los poderes públicos del estado Sucre, Venezuela. Está
+                            ubicada en la entrada del golfo de Cariaco, junto a la desembocadura del río Manzanares. Actualmente posee una población
+                            de 374.706 habitantes, que al sumarle los de las localidades aledañas de El Peñón, Cantarrana y El Tacal y otras poblaciones
+                            cercanas, forma una conurbación con un total de 680.918 habitantes que integran el Área metropolitana de Cumaná, distribuidos
+                            en 598 km² de superficie; se encuentra en la Región Nor-Oriental del país. Es la capital del Estado Sucre y centro de la
+                            región oriental. Desde el 3 de julio de 1591 recibe expresamente título de ciudad, con privilegio de escudo de armas. Desde
+                            entonces obtiene su patente histórica para no perder más el nombre, y ahí está, con su hermosa carga a cuestas. Actualmente
+                            es fuerte candidata para ser nombrada patrimonio de la humanidad por la UNESCO, específicamente su casco histórico. En su
+                            momento la ciudad de Cumaná también ha sido conocida por ser "La Capital Mundial De La Cultura", "La Atenas venezolana" y
+                            hoy día es parte de su patrimonio.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 1570 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 369.780 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 7 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Altagracia</li>
+                            <li class="collection-item">Ayacucho</li>
+                            <li class="collection-item">Gran Mariscal</li>
+                            <li class="collection-item">Raúl Leoni</li>
+                            <li class="collection-item">San Juan</li>
+                            <li class="collection-item">Santa Inés</li>
+                            <li class="collection-item">Valentín Valiente</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Castillo de San Antonio</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Playa Colorada</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Iglesia Santa Inés</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Parque Nacional Mochima</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+    <div id="Valdez" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s8 slider-municipio">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/05_big.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/7325196.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/7934388.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/1493412195814.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/1493412196007.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/guiria_700x490.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/guiria_700x490b.jpg">
+                        </a>
+                        <a class="carousel-item" href="#one!">
+                            <img src="media/valdez/guiria_700x490d.jpg">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="col s4 contenido-municipio">
+                    <h5>Municipio Valdez</h5>
+                    <blockquote cite="">
+                        <p>Es uno de los 15 municipios que conforman el estado Sucre. Tiene 4 parroquias de las 57 existentes en todo el estado oriental,
+                        y su capital es la ciudad de Güiria.</p>
+                        <p>Güiria y el resto de la Península, junto con la isla de Trinidad, eran buenos lugares para los españoles, tener tierras y
+                        buscar El Dorado era su objetivo, pero la dura resistencia de indígenas de la zona dificultaba la llegada española y su desarrollo,
+                        pero no los detuvo y se instalaron con pequeñas poblaciones, mas la mayoría de las fundaciones eran protagonizadas por Frailes
+                        capuchinos. Algunas poblaciones fundadas en el siglo XVIII fueron: Punta de Piedras, Macuro, Soro, Irapa, etc. Algunas poblaciones
+                        se quedaron como simples poblaciones indígenas, otras crecieron por las inmigraciones antillo-francesas, a partir de las
+                        persecuciones políticas en 1880. Trajeron familiares, esclavos, y nuevos cultivos, fundaron y explotaron varios nuevos rubros,
+                        causando impacto enorme en la economía de exportación hacia Estados Unidos y Europa.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Capital</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>
+                            <b>Güiria</b> es una ciudad ubicada en el estado Sucre, Venezuela. Es capital del municipio Valdez. Fue fundada el 8 de diciembre de 1767.
+                            Tiene aproximadamente 40.000 habitantes. Es un importante puerto, el único venezolano sobre el océano Atlántico, y centro
+                            económico de la península de Paria, por estar cercana a las zonas de exploración y explotación de las áreas gasíferas del
+                            golfo de Paria, donde numerosas empresas estatales y privadas tienen proyectos de desarrollo.</p>
+                    </blockquote>
+                    <h6>
+                        <b>Superficie</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 598 km^2
+                    </blockquote>
+                    <h6>
+                        <b>Población</b>
+                    </h6>
+                    <blockquote cite="">
+                        Total: 38.728 hab.
+                    </blockquote>
+                    <h6>
+                        <b>Parroquias</b>
+                    </h6>
+                    <blockquote cite="">
+                        <p>El municipio cuenta con 4 de las 57 parroquias del estado: </p>
+                        <ul class="collection">
+                            <li class="collection-item">Cristobal Colón</li>
+                            <li class="collection-item">Bideau</li>
+                            <li class="collection-item">Punta de Piedras</li>
+                            <li class="collection-item">Güiria</li>
+                        </ul>
+                    </blockquote>
+                    <h6>
+                        <b>Sitios de interés</b>
+                    </h6>
+                    <blockquote cite="">
+                        <ul class="collection">
+                            <li>
+                                <div class="collapsible-header">Parque Nacional Península de Paria</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Puerto Pesquer de Güiria</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header">Macuro</div>
+                                <div class="collapsible-body">
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Volver</a>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/raphael.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/sucre_state.js"></script>
+</body>
+</html>

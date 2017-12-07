@@ -1,0 +1,67 @@
+svg { height: 100%; width: 100%}
+
+/*Modal*/
+.modal{
+    width: 80% !important;
+    height: 80% !important;
+    overflow: auto;
+}
+.contenido-municipio{
+    height: 330px;
+    overflow-y: scroll;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+/*Leyenda*/
+.leyenda-box{
+    height: 20px;
+    width: 20px;
+}
+.andres-eloy{
+ background-color:rgb(82, 143, 190);
+}
+.andres-mata{
+    background-color: rgb(161, 133, 111);
+}
+.marino{
+    background-color: rgb(127, 105, 86);
+}
+.valdez{
+    background-color: rgb(218, 136, 89);
+}
+.cajigal{
+    background-color: rgb(62, 200, 247);
+}
+.arismendi{
+    background-color: rgb(218, 174, 91);
+}
+.libertador{
+    background-color: rgb(68, 241, 90);
+}
+.benitez{
+    background-color: rgb(118, 184, 110);
+}
+.bermudez{
+    background-color: rgb(198, 232, 110);
+}
+.cruz{
+    background-color: rgb(197, 128, 208);
+}
+.ribero{
+    background-color: rgb(219, 122, 90);
+}
+.mejia{
+    background-color: rgb(158, 168, 211);
+}
+.bolivar{
+    background-color: rgb(116, 206, 118);
+}
+.montes{
+    background-color: rgb(183, 141, 117);
+}
+.sucre{
+    background-color: rgb(100, 100, 100);
+}
+
